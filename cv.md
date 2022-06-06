@@ -12,3 +12,36 @@ I'm a passionate Software Engineer, working currently as a Customer Support Soft
 * GWT
 * JavaScript
 * HTML5 and CSS
+
+
+## Work Experience 
+**Customer Support Software Engineer:** *Netcracker Technology, 04.2021 - Present* <br/>
+Providing post-production support of enterprise applications based on Java, Spring, GWT and Oracle technologies:
+* bug fixing, providing SQL reports and data fixes using PL/SQL;
+* performance optimization;
+* new features analysis and implementation;
+* new developer training and drafting of documents for business logic and useful tips explanation.
+
+**Junior Customer Support Software Engineer:** *Netcracker Technology, 03.2019 - 04.2021*<br/>
+Providing post-production support of enterprise applications based on Java, Spring, GWT and Oracle technologies:
+* bug fixing, providing SQL reports and data fixes using PL/SQL;
+* implementation of new functionality based on new customer requests.
+
+**Junior Test Engineer:** *Effective Technologies, 07.2018 - 10.2018* <br/>
+* manual testing of web application;
+* working with SoapUI and MySQL Database;
+* writing test documentation.
+
+
+## Education
+*09.2014 - 02.2021* <br/>
+Nizhny Novgorod State Technical University, Nizhny Novogorod <br/>
+**Radio-electronic system and complexes. Engineer Degree.**
+                  
+                  
+## Courses
+*10.2017 – 12.2017* <br/>
+Extra-curricular Java Programming, Nizhny Novgorod State Technical University
+
+*10.2018 - 02.2019* <br/>
+Corporate systems development based on Java and Oracle technologies, Netcracker Educational Centre
