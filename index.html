@@ -25,6 +25,111 @@
       </ul>
     </header>
 	
+	<main>
+      <article>
+        <h4>
+          I'm a passionate Software Engineer, working currently as a Customer Support Software Engineer.
+          I have been working for 2 years mostly with backend on Java, Spring and with Oracle Database using SQL and PL/SQL.
+          I take also frontend courses and learn JavaScript, HTML and CSS. I'm willing to improve my programming skills and
+          seeking for better opportunities and interesting tasks. I would be glad to work with experienced team and gain
+          new knowledge from my colleagues. Moreover, I hope my skills would be useful too.
+        </h4>
+      </article>
+
+      <section>
+        <h3>Skills:</h3>
+        <ul>
+          <li>Java</li>
+          <li>Spring</li>
+          <li>SQL and PL/SQL</li>
+          <li>Git</li>
+          <li>GWT</li>
+          <li>JavaScript</li>
+          <li>HTML and CSS</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Work Experience</h3>
+        <div class="work-block">
+          <h4>Customer Support Software Engineer</h4>
+          <h5>Netcracker Technology, 04.2021 - Present</h5>
+          <p>Providing post-production support of enterprise applications based on Java, Spring, GWT and Oracle technologies:</p>
+          <ul>
+            <li>bug fixing, providing SQL reports and data fixes using PL/SQL;</li>
+            <li>performance optimization;</li>
+            <li>new features analysis and implementation;</li>
+            <li>new developer training and drafting of documents for business logic and useful tips explanation</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Junior Customer Support Software Engineer</h4>
+          <h5>Netcracker Technology, 03.2019 - 04.2021</h5>
+          <p>Providing post-production support of enterprise applications based on Java, Spring, GWT and Oracle technologies:</p>
+          <ul>
+            <li>bug fixing, providing SQL reports and data fixes using PL/SQL;</li>
+            <li>implementation of new functionality based on new customer requests.</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Junior Test Engineer:</h4>
+          <h5>Effective Technologies, 07.2018 - 10.2018</h5>
+          <ul>
+            <li>manual testing of web application;</li>
+            <li>working with SoapUI and MySQL Database;</li>
+            <li>writing test documentation.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h3>Education:</h3>
+        <h4>Radio-electronic system and complexes. Engineer Degree</h4>
+        <h5>Nizhny Novgorod State Technical University, Nizhny Novogorod, 09.2014 - 02.2021</h5>
+      </section>
+
+      <section>
+        <h3>Courses:</h3>
+        <h4>Extra-curricular Java Programming, Nizhny Novgorod State Technical University</h4>
+        <h5>10.2017 – 12.2017</h5>
+        <h4>Corporate systems development based on Java and Oracle technologies, Netcracker Educational Centre</h4>
+        <h5>10.2018 - 02.2019</h5>
+      </section>
+
+      <section>
+        <h3>An example of task solution</h3>
+        <p><mark>Task: </mark>function should return true if the input number is narcisstic.
+          A Narcissistic Number is a positive number which is the sum of its own digits, each raised to the power
+          of the number of digits in a given base.
+        </p>
+        <p><mark>Solution:</mark></p>
+        <pre>
+          <code>
+          
+  function narcissistic (value) {
+    const valueString = value.toString();
+    let sum = 0;
+    for (let i = 0; i &lt; valueString.length; i++) {
+      sum += Math.pow(valueString[i], valueString.length);
+    }
+    if(parseInt(sum) === value) {
+      return true;
+    }
+    return false;
+  }
+          </code>
+        </pre>
+      </section>
+
+      <section>
+        <h3>Languages:</h3>
+        <ul>
+          <li>English - B2</li>
+          <li>German - B2 Goethe-Zertifikat</li>
+        </ul>
+      </section>
+    </main>
+	
 	<footer>
       <a href="https://rs.school/js/"><img class="rs-school-js" src="images/rs_school_js.svg" alt="RS School"></a>
       <a href="https://github.com/alenamor7"><img class="my-github-acc" src="images/github_icon.png" alt="GitHub Account"></a>
