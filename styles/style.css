@@ -1,0 +1,82 @@
+* {
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Andale Mono, monospace;
+    padding: 2% 2% 2% 2%;
+    background-color: #E6E6FA;
+}
+
+header,
+footer {
+    padding: 1% 1% 1% 1%;
+    background-color: #AFEEEE;
+}
+
+h3 {
+    background-color: #DDA0DD;
+}
+
+h4, h5 {
+    margin: 1% 0% 1% 0%;
+}
+
+h5 {
+    font-style: italic;
+}
+
+mark {
+    background-color: #AFEEEE;
+}
+
+pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+}
+
+.profile-photo {
+    width: 80%;
+    height: 80%;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%; 
+    border: 0.8em solid #DDA0DD;
+}
+
+.contact-icon {
+    width: 5%;
+    height: 5%;
+    max-width: 50px;
+    max-height: 50px;
+}
+.contacts {
+    margin: 0; 
+    padding: 4px; 
+}
+
+.contacts li {
+    display: inline;
+    margin-right: 5px; 
+}
+
+.rs-school-js {
+    width: 30%;
+    height: 30%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.my-github-acc {
+    float: right;
+    width: 10%;
+    height: 10%;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+
