@@ -37,11 +37,34 @@ Providing post-production support of enterprise applications based on Java, Spri
 *09.2014 - 02.2021* <br/>
 Nizhny Novgorod State Technical University, Nizhny Novogorod <br/>
 **Radio-electronic system and complexes. Engineer Degree.**
-                  
-                  
+
+ 
 ## Courses
 *10.2017 – 12.2017* <br/>
 Extra-curricular Java Programming, Nizhny Novgorod State Technical University
 
 *10.2018 - 02.2019* <br/>
 Corporate systems development based on Java and Oracle technologies, Netcracker Educational Centre
+
+
+## An example of task solving
+**Task:** function should return true if the input number is narcisstic. A Narcissistic Number is a positive number which is the sum of its own digits, each raised to the power of the number of digits in a given base.(*Task was taken from Codewars, you can find my account: [alenamor7](https://www.codewars.com/users/alenamor7)*) <br/>
+**Solution:**
+```javascript
+function narcissistic(value) {
+  const valueString = value.toString();
+  let sum = 0;
+  for (let i = 0; i < valueString.length; i++) {
+    sum += Math.pow(valueString[i], valueString.length);
+  }
+  if(parseInt(sum) === value) {
+    return true;
+  }
+  return false;
+}
+```
+
+
+## Languages
+* English - B2
+* German - B2 Goethe Zertifikat
