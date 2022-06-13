@@ -3,107 +3,143 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Alena Volkova CV</title>
   </head>
   <body>
-  <header>
-      <figure>
-        <img class="profile-photo" src="images/profile_pic.jpg" alt="Profile photo">
-      </figure>
-      <h1>Alena Volkova</h1>
-      <h2>Junior Software Engineer</h2>
-      <ul class="contacts">
-         <li>
-           <img class="contact-icon" src="images/email_icon.png" alt="Email">
-           <a href="mailto:morozkinalyona@gmail.com">morozkinalyona@gmail.com</a>
-         </li>
-         <li>
-           <img class="contact-icon" src="images/linkedin_icon.png" alt="LinkedIn">
-           <a href="https://www.linkedin.com/in/alena-volkova-9699571aa/">Alena Volkova</a>
-         </li>
-      </ul>
-    </header>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
     <main>
-      <article>
-        <h4>
-          I'm a passionate Software Engineer, working currently as a Customer Support Software Engineer.
-          I have been working for 2 years mostly with backend on Java, Spring and with Oracle Database using SQL and PL/SQL.
-          I take also frontend courses and learn JavaScript, HTML and CSS. I'm willing to improve my programming skills and
-          seeking for better opportunities and interesting tasks. I would be glad to work with experienced team and gain
-          new knowledge from my colleagues. Moreover, I hope my skills would be useful too.
-        </h4>
-      </article>
-
-      <section>
-        <h3>Skills:</h3>
-        <ul>
-          <li>Java</li>
-          <li>Spring</li>
-          <li>SQL and PL/SQL</li>
-          <li>Git</li>
-          <li>GWT</li>
-          <li>JavaScript</li>
-          <li>HTML and CSS</li>
-        </ul>
-      </section>
-
-      <section>
-        <h3>Work Experience</h3>
-        <div class="work-block">
-          <h4>Customer Support Software Engineer</h4>
-          <h5>Netcracker Technology, 04.2021 - Present</h5>
-          <p>Providing post-production support of enterprise applications based on Java, Spring, GWT and Oracle technologies:</p>
-          <ul>
-            <li>bug fixing, providing SQL reports and data fixes using PL/SQL;</li>
-            <li>performance optimization;</li>
-            <li>new features analysis and implementation;</li>
-            <li>new developer training and drafting of documents for business logic and useful tips explanation</li>
+      <div class="container">
+          <figure>
+            <img class="profile-photo" src="assets/img/profile_pic.jpg" alt="Profile photo">
+          </figure>
+          <h1>Alena Volkova</h1>
+          <h2>Junior Software Engineer</h2>
+        <section id="contacts">
+          <h2 class="section-title">Contacts:</h2>
+          <ul class="contacts">
+            <li>
+              <img class="contact-icon" src="assets/img/email_icon.png" alt="Email">
+              <a class="out-link" href="mailto:morozkinalyona@gmail.com">morozkinalyona@gmail.com</a>
+            </li>
+            <li>
+              <img class="contact-icon" src="assets/img/linkedin_icon.png" alt="LinkedIn">
+              <a class="out-link" href="https://www.linkedin.com/in/alena-volkova-9699571aa/">Alena Volkova</a>
+            </li>
           </ul>
-        </div>
-        <div>
-          <h4>Junior Customer Support Software Engineer</h4>
-          <h5>Netcracker Technology, 03.2019 - 04.2021</h5>
-          <p>Providing post-production support of enterprise applications based on Java, Spring, GWT and Oracle technologies:</p>
+        </section>
+        <section id="summary">
+          <h2 class="section-title">Summary:</h2>
+          <h4>
+            I'm a passionate Software Engineer, working currently as a Customer Support Software Engineer.
+            I have been working for 2 years mostly with backend on Java, Spring and with Oracle Database using SQL and PL/SQL.
+            I take also frontend courses and learn JavaScript, HTML and CSS. I'm willing to improve my programming skills and
+            seeking for better opportunities and interesting tasks. I would be glad to work with experienced team and gain
+            new knowledge from my colleagues. Moreover, I hope my skills would be useful too.
+          </h4>
+        </section>
+
+        <section id="skills">
+          <h2 class="section-title">Skills:</h2>
           <ul>
-            <li>bug fixing, providing SQL reports and data fixes using PL/SQL;</li>
-            <li>implementation of new functionality based on new customer requests.</li>
+            <li>Java</li>
+            <li>Spring</li>
+            <li>SQL and PL/SQL</li>
+            <li>Git</li>
+            <li>GWT</li>
+            <li>JavaScript</li>
+            <li>HTML and CSS</li>
+            <li>Maven and Gradle</li>
           </ul>
-        </div>
-        <div>
-          <h4>Junior Test Engineer:</h4>
-          <h5>Effective Technologies, 07.2018 - 10.2018</h5>
+        </section>
+
+        <section id="experience">
+          <h2 class="section-title">Work Experience</h2>
+          <div class="work-block">
+            <h4>Customer Support Software Engineer</h4>
+            <h5>Netcracker Technology, 04.2021 - Present</h5>
+            <p>Providing post-production support of enterprise applications based on Java, Spring, GWT and Oracle technologies:</p>
+            <ul>
+              <li>bug fixing, providing SQL reports and data fixes using PL/SQL;</li>
+              <li>performance optimization;</li>
+              <li>new features analysis and implementation;</li>
+              <li>new developer training and drafting of documents for business logic and useful tips explanation</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Junior Customer Support Software Engineer</h4>
+            <h5>Netcracker Technology, 03.2019 - 04.2021</h5>
+            <p>Providing post-production support of enterprise applications based on Java, Spring, GWT and Oracle technologies:</p>
+            <ul>
+              <li>bug fixing, providing SQL reports and data fixes using PL/SQL;</li>
+              <li>implementation of new functionality based on new customer requests.</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Junior Test Engineer:</h4>
+            <h5>Effective Technologies, 07.2018 - 10.2018</h5>
+            <ul>
+              <li>manual testing of web application;</li>
+              <li>working with SoapUI and MySQL Database;</li>
+              <li>writing test documentation.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="education">
+          <h2 class="section-title">Education:</h2>
+          <h4>Radio-electronic system and complexes. Engineer Degree</h4>
+          <h5>Nizhny Novgorod State Technical University, Nizhny Novogorod, 09.2014 - 02.2021</h5>
+        </section>
+
+        <section id="courses">
+          <h2 class="section-title">Courses:</h2>
+          <h4>Extra-curricular Java Programming, Nizhny Novgorod State Technical University</h4>
+          <h5>10.2017 – 12.2017</h5>
+          <h4>Corporate systems development based on Java and Oracle technologies, Netcracker Educational Centre</h4>
+          <h5>10.2018 - 02.2019</h5>
+        </section>
+
+        <section id="projects">
+          <h2 class="section-title">Projects:</h2>
           <ul>
-            <li>manual testing of web application;</li>
-            <li>working with SoapUI and MySQL Database;</li>
-            <li>writing test documentation.</li>
+            <li>
+              <a class="out-link" href="https://github.com/alenamor7/conference-track-management">Conference Track Management</a>
+            </li>            
+            <li>
+              <a class="out-link" href="https://github.com/alenamor7/spring-pet-clinic">Spring Pet Clinic</a>
+            </li>
           </ul>
-        </div>
-      </section>
+        </section>
 
-      <section>
-        <h3>Education:</h3>
-        <h4>Radio-electronic system and complexes. Engineer Degree</h4>
-        <h5>Nizhny Novgorod State Technical University, Nizhny Novogorod, 09.2014 - 02.2021</h5>
-      </section>
-
-      <section>
-        <h3>Courses:</h3>
-        <h4>Extra-curricular Java Programming, Nizhny Novgorod State Technical University</h4>
-        <h5>10.2017 – 12.2017</h5>
-        <h4>Corporate systems development based on Java and Oracle technologies, Netcracker Educational Centre</h4>
-        <h5>10.2018 - 02.2019</h5>
-      </section>
-
-      <section>
-        <h3>An example of task solution</h3>
-        <p><mark>Task: </mark>function should return true if the input number is narcisstic.
-          A Narcissistic Number is a positive number which is the sum of its own digits, each raised to the power
-          of the number of digits in a given base.
-        </p>
-        <p><mark>Solution:</mark></p>
-        <pre>
+        <section id="code">
+          <h2 class="section-title">An example of task solution</h2>
+          <p><mark>Task: </mark>function should return true if the input number is narcisstic.
+            A Narcissistic Number is a positive number which is the sum of its own digits, each raised to the power
+            of the number of digits in a given base.
+          </p>
+          <p><mark>Solution:</mark></p>
+          <pre>
           <code>
 
   function narcissistic (value) {
@@ -119,20 +155,23 @@
   }
           </code>
         </pre>
-      </section>
+        </section>
 
-      <section>
-        <h3>Languages:</h3>
-        <ul>
-          <li>English - B2</li>
-          <li>German - B2 Goethe-Zertifikat</li>
-        </ul>
-      </section>
+        <section id="languages">
+          <h2 class="section-title">Languages:</h2>
+          <ul>
+            <li>English - B2</li>
+            <li>German - B2 Goethe-Zertifikat</li>
+          </ul>
+        </section>
+      </div>
     </main>
 
-    <footer>
-      <a href="https://rs.school/js/"><img class="rs-school-js" src="images/rs_school_js.svg" alt="RS School"></a>
-      <a href="https://github.com/alenamor7"><img class="my-github-acc" src="images/github_icon.png" alt="GitHub Account"></a>
+    <footer class="footer">
+      <div class="container footer-cont">
+        <a class="my-github-acc" href="https://github.com/alenamor7"><img class="my-github-acc-image" src="assets/img/github_icon.png" alt="GitHub Account"> &copy; 2022</a>
+        <a class="rs-school-js" href="https://rs.school/js/"><img class="rs-school-js-image" src="assets/img/rs_school_js.svg" alt="RS School"></a>
+      </div>
     </footer>
   </body>
 </html>
