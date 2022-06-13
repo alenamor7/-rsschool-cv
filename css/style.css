@@ -1,23 +1,53 @@
 * {
-    align-items: center;
-    justify-content: space-between;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
 body {
-    max-width: 1200px;
-    margin: 0 auto;
-    font-family: Andale Mono, monospace;
-    padding: 2% 2% 2% 2%;
+    font-family: Roboto, monospace;
     background-color: #E6E6FA;
+    font-size: 16px;
+    min-height: 100vh;
+    margin: 0; padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-header,
-footer {
-    padding: 1% 1% 1% 1%;
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header,
+.footer {
+    margin: 0; padding: 0;
     background-color: #AFEEEE;
 }
 
-h3 {
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    color: #000000;
+}
+
+.out-link {
+    color: #000000;
+}
+
+.section-title {
     background-color: #DDA0DD;
 }
 
@@ -64,19 +94,27 @@ pre code {
     margin-right: 5px; 
 }
 
-.rs-school-js {
-    width: 30%;
-    height: 30%;
+.rs-school-js-image {
+    width: 50%;
+    height: 50%;
     max-width: 300px;
     max-height: 300px;
 }
 
-.my-github-acc {
+.rs-school-js {
     float: right;
+    margin: 20px;
+}
+
+.my-github-acc-image {
     width: 10%;
     height: 10%;
     max-width: 100px;
     max-height: 100px;
+}
+
+.my-github-acc {
+    margin: 20px;
 }
 
 
